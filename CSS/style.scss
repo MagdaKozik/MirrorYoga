@@ -14,9 +14,8 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
-    padding-bottom: 38%;
+    padding-bottom: 52%;
 }
-
 #sticky-menu{
   padding-right: 10%;
   padding-left: 10%;
@@ -39,5 +38,22 @@ header {
       }
     }
   }
+
+//HEADER TEXT
+.header-text{
+  padding-left: 10%;
+  padding-top: 15%;
+  h1{
+    text-transform: uppercase;
+    font-size: tahoma;
+  }
+}
+.shape{
+  background-image: url("../img/topshape.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
 
 
