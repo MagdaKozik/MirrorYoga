@@ -128,5 +128,16 @@ header {
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-bottom: 23%; }
+  .shape-second .row {
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white; }
+    .shape-second .row img {
+      padding-top: 30%; }
+    .shape-second .row .botton {
+      padding-top: 15%; }
+      .shape-second .row .botton a {
+        color: #62a70f; }
 
 /*# sourceMappingURL=style.css.map */
