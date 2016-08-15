@@ -3,6 +3,9 @@ body {
   padding: 0; }
   body ul {
     list-style-type: none; }
+  body img {
+    width: 100%;
+    height: auto; }
 
 header {
   width: 100%;
@@ -39,11 +42,91 @@ header {
     text-transform: uppercase;
     font-size: tahoma; }
 
-.shape {
+.shape-first {
   background-image: url("../img/topshape.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-bottom: 5%; }
+
+.description {
+  padding-left: 10%; }
+  .description span {
+    color: #8DC63F; }
+  .description p {
+    color: gray; }
+
+.title-line {
+  padding-top: 12%; }
+
+.number {
+  color: silver;
+  font-size: 35px;
+  display: inline-block; }
+
+.information {
+  padding-right: 5%; }
+  .information .points {
+    font-weight: bold;
+    line-height: 40px; }
+    .information .points .circle-one {
+      width: 40px;
+      height: 40px;
+      background: #62a70f;
+      position: relative;
+      border-radius: 50%;
+      display: inline-block; }
+    .information .points .circle-one::after {
+      content: "1";
+      color: white;
+      padding-left: 15px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #62a70f;
+      border-radius: 50%;
+      transform: scale(0.7); }
+    .information .points .circle-one::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: white;
+      border-radius: 50%;
+      transform: scale(0.9); }
+    .information .points .circle-two {
+      width: 40px;
+      height: 40px;
+      background: #62a70f;
+      position: relative;
+      border-radius: 50%;
+      display: inline-block; }
+    .information .points .circle-two::after {
+      content: "2";
+      color: white;
+      padding-left: 15px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #62a70f;
+      border-radius: 50%;
+      transform: scale(0.7); }
+    .information .points .circle-two::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: white;
+      border-radius: 50%;
+      transform: scale(0.9); }
+    .information .points p {
+      display: inline-block; }
+
+.shape-second {
+  background-image: url("../img/shape-second.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 23%; }
 
 /*# sourceMappingURL=style.css.map */
