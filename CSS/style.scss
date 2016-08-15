@@ -4,6 +4,10 @@ body{
   ul{
   list-style-type: none;
   }
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
 // MENU
 header {
@@ -14,9 +18,8 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
-    padding-bottom: 38%;
+    padding-bottom: 52%;
 }
-
 #sticky-menu{
   padding-right: 10%;
   padding-left: 10%;
@@ -40,4 +43,110 @@ header {
     }
   }
 
-
+//HEADER TEXT
+.header-text{
+  padding-left: 10%;
+  padding-top: 15%;
+  h1{
+    text-transform: uppercase;
+    font-size: tahoma;
+  }
+}
+.shape-first{
+  background-image: url("../img/topshape.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+// DESCRIPTION
+.description{
+  padding-left:10%;
+  span{
+    color: #8DC63F;
+  }
+  p{
+    color: gray;
+  }
+}
+.title-line{
+  padding-top:12%;
+}
+.number{
+  color:silver;
+  font-size: 35px;
+  display: inline-block;
+}
+.information{
+  padding-right:5%;
+  .points{
+    font-weight: bold;
+    line-height: 40px;
+    .circle-one {
+      width: 40px;
+      height: 40px;
+      background: #62a70f;
+      position: relative;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .circle-one::after {
+      content: "1";
+      color: white;
+      padding-left:15px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #62a70f;
+      border-radius: 50%;
+      transform: scale(0.7);
+    }
+    .circle-one::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: white;
+      border-radius: 50%;
+      transform: scale(0.9);
+    }
+  .circle-two {
+      width: 40px;
+      height: 40px;
+      background: #62a70f;
+      position: relative;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .circle-two::after {
+      content: "2";
+      color: white;
+      padding-left:15px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #62a70f;
+      border-radius: 50%;
+      transform: scale(0.7);
+    }
+    .circle-two::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: white;
+      border-radius: 50%;
+      transform: scale(0.9);
+    }
+    p{
+    display: inline-block;
+    }
+  }
+}
+.shape-second{
+  background-image: url("../img/shape-second.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 23%;
+}
