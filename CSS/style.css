@@ -37,10 +37,9 @@ header {
 
 .header-text {
   padding-left: 10%;
-  padding-top: 15%; }
-  .header-text h1 {
-    text-transform: uppercase;
-    font-size: tahoma; }
+  padding-top: 16%; }
+  .header-text h2 {
+    text-transform: uppercase; }
 
 .shape-first {
   background-image: url("../img/topshape.png");
