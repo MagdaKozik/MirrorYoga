@@ -50,13 +50,15 @@ header {
 
 .description {
   padding-left: 10%; }
-  .description span {
-    color: #8DC63F; }
-  .description p {
-    color: gray; }
+  .description .row {
+    margin: 5%; }
+    .description .row span {
+      color: #8DC63F; }
+    .description .row p {
+      color: gray; }
 
 .title-line {
-  padding-top: 12%; }
+  margin-bottom: 7%; }
 
 .number {
   color: silver;
@@ -126,7 +128,7 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-bottom: 23%; }
+  padding-bottom: 8%; }
   .shape-second .row {
     padding-top: 8%;
     padding-left: 10%;
@@ -135,8 +137,22 @@ header {
     .shape-second .row img {
       padding-top: 30%; }
     .shape-second .row .botton {
-      padding-top: 15%; }
+      padding-top: 10%; }
       .shape-second .row .botton a {
         color: #62a70f; }
+
+.pointslist {
+  margin-top: 7%; }
+  .pointslist .thick img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px; }
+  .pointslist h5 {
+    display: inline-block;
+    font-weight: bold; }
+
+.step-three {
+  padding-top: 10%; }
 
 /*# sourceMappingURL=style.css.map */
