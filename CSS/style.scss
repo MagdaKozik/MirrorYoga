@@ -62,16 +62,20 @@ header {
 // DESCRIPTION
 .description{
   padding-left:10%;
-  span{
-    color: #8DC63F;
-  }
-  p{
-    color: gray;
+  .row{
+    margin:5%;
+    span{
+      color: #8DC63F;
+    }
+    p{
+      color: gray;
+    }
   }
 }
 .title-line{
-  padding-top:12%;
+  margin-bottom: 7%;
 }
+
 .number{
   color:silver;
   font-size: 35px;
@@ -148,7 +152,7 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-bottom: 23%;
+  padding-bottom: 8%;
     .row{
       padding-top:8%;
       padding-left:10%;
@@ -158,11 +162,30 @@ header {
         padding-top:30%;
       }
       .botton{
-        padding-top:15%;
+        padding-top:10%;
         a{
         color: #62a70f;
         }
       }
     }
-
 }
+.pointslist{
+  margin-top: 7%;
+  .thick{
+    img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    }
+  }
+  h5{
+    display: inline-block;
+    font-weight: bold
+  }
+}
+.step-three{
+  padding-top:10%;
+}
+
+
